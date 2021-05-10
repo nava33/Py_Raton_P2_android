@@ -29,7 +29,7 @@ class Empresa extends StatelessWidget {
         title: new Text("Empresa"),
       ),
       body: Center(
-        child: Text("Seccion Empresa"),
+        child: Text("Seccion Empresa Nava"),
       ),
     ); //fin de Scaffold
   } //fin de widget Empresa
@@ -43,7 +43,7 @@ class Productos extends StatelessWidget {
         title: new Text("Productos"),
       ),
       body: Center(
-        child: Text("Seccion Productos"),
+        child: Text("Seccion Productos Nava"),
       ),
     ); //fin de Scaffold
   } //fin de widget productos
@@ -57,7 +57,7 @@ class Contacto extends StatelessWidget {
         title: new Text("Contacto"),
       ),
       body: Center(
-        child: Text("Seccion Contacto"),
+        child: Text("Seccion Contacto Nava"),
       ),
     ); //fin de Scaffold
   } //fin de widget Contacto
@@ -169,7 +169,7 @@ class Inicio extends StatelessWidget {
                   ],
                 ), //fin de r2  c2
               ],
-            ), // fin de r2           
+            ), // fin de r2
           ], // fin de widget []
         ), // columna
       ), // fin de container
