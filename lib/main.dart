@@ -99,7 +99,28 @@ class Inicio extends StatelessWidget {
                       ), // boton inicio
                     ) // padding
                   ], //widget []
-                ), //fin columna interna
+                ), //fin columna interna c1
+                Column(
+                  children: <Widget>[
+                    Padding(
+                      padding: EdgeInsets.all(10),
+                      child: RaisedButton(
+                        color: Colors.white,
+                        shape: new RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
+                        onPressed: () {
+                          Navigator.pushNamed(context, "/empresa");
+                        },
+                        child: SizedBox(
+                          width: 100,
+                          height: 100,
+                          child: Center(
+                            child: Text("EMPRESA", textAlign: TextAlign.center),
+                          ),
+                        ),
+                      ),
+                    )
+                  ],
+                ), // r1 columna 2
               ], //widget []
             ), // fin fin de fila 1
           ], // fin de widget []
